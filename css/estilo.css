@@ -1,0 +1,215 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    background-image: url(../img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.mapa{
+    height: 500px !important;
+}
+header{
+    width: 100%;
+}
+.container{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li{
+    transition: .7s;
+    padding: 30px;
+    background: rgba(44, 44, 44, .5);
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+.menu li:hover{
+    background: #F56E36;
+    color: #000;
+}
+.menu ul a{
+    color:#fff;
+}
+.carousel-demo{
+    margin-top: 150px !important;  
+    max-width: 900px !important;
+    max-height: 400px !important;
+    margin-bottom: 100px !important;
+}
+.mobile{
+    display: none;
+}
+.exibir{
+    width: 100%;
+}
+.w70{
+    background: #000;
+    height: 300px;
+}
+.face{
+    background: #eee;
+    border: 2px solid #888;
+    height: 500px;
+    padding: 20px;
+}
+footer{
+    margin-top: 80px !important;
+    background: #222;
+    text-align: center;
+}
+.autor{
+    text-align: center;
+}
+.w33{
+    padding: 30px !important;
+}
+.autor{
+    background: #1B6AB5;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+footer h2{
+    color: white;
+}
+footer a{
+    color: rgb(247, 137, 91);
+    display: block;
+}
+footer span.lem{
+    color: white !important;
+    text-transform: none;
+}
+footer span{
+    color: rgb(247, 137, 91);
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+footer input[type=text], input[type=password]{
+    width: 300px;
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+footer input[type=button]{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+    color: white;
+    background: #F56E36;
+    margin-bottom: 10px;
+}
+footer ul{
+    list-style: none;
+}
+footer li {
+    padding: 3px;  
+    text-align: center;
+}
+footer h2{
+    margin-bottom: 20px;
+}
+footer li a{        
+    display: unset;
+    text-decoration: none;
+    color: rgb(247, 166, 131);
+}
+
+@media screen and (max-width: 1282px){
+    .mobile{
+        display: block !important;
+    }
+    .desktop{
+        display: none !important;
+    }    
+    .botao-menu{
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+        color: #F56E36;
+    }
+    .mobile ul{
+        position: relative;
+        display: none;
+        width: 100%;
+        z-index: 3;
+        text-align: center;  
+             
+    }
+    .carousel-demo{
+        margin-top: 60px !important;
+    }
+    .mobile a{
+        text-decoration: none;
+    }
+    .mobile li{
+        float: none;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-top:none;
+        border-bottom: none;
+    }
+
+    .w70,.w30{
+        margin: 0;
+        width: 100% !important;
+    }
+    .w70{
+        margin-top: -50px !important;
+    }
+    .w30{
+        width: 370px !important;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (max-width: 912px){
+    .w33{
+        text-align: center;
+        margin: 0 auto !important;
+        width: 100% !important;
+        float: none !important;
+        border-bottom: 2px solid white;
+    }
+    footer input[type=text], input[type=password]{
+        max-width: 500px !important;
+        width: 100% !important;
+    }
+    .header img{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .header img{
+        max-width: 270px;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .header img{
+        max-width: 300px;
+    }
+    .w30{
+        width: 300px !important;
+    }
+}
